@@ -1,5 +1,7 @@
 -- From https://discourse.haskell.org/t/counting-words-but-can-we-go-faster/4864
 
+import Data.FastChar
+
 -- base
 import Control.Monad (forM_)
 import Data.List (sortOn)
